@@ -16,47 +16,48 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Create a vector called vector_1 with elements 101,102,103,104,105
 ```{r}
-# FOR YOU TO DO
+vector1<-c(101,102,103,104,105)
 ```
 
 ### Print how many elements vector_1 has
 ```{r}
-# FOR YOU TO DO
+print(length(vector1))
 ```
 
 ### Third element of vector_1
 ```{r}
-# FOR YOU TO DO
+print((vector1[3]))
+
 ```
 
 ### Second and fourth element of vector_1
 ```{r}
-# FOR YOU TO DO
+print((vector1[c(2,4)]))
 ```
 
 ### Access all but first element of vector_1
 ```{r}
-# FOR YOU TO DO
+print((vector1[-1]))
 ```
 
 ### Take elements of vector_1 less than 104
 ```{r}
-# FOR YOU TO DO
+vector1[vector1<104]
 ```
 
 ### Modify vector_1 2nd element
 ```{r}
-# FOR YOU TO DO
+vector1[2]<-8563265852
 ```
 
 ### Modify vector elements less than 104 to be -1
 ```{r}
-# FOR YOU TO DO
+vector1[vector1<104]<- -1
 ```
 
 ### Modify vector elements less than 9 to be -1
 ```{r}
-# FOR YOU TO DO
+vector1[vector1<9]<- -1
 ```
 
 ## Once you have filled in the questions, try 'Knitting' via the button in the toolbar above this window
